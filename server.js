@@ -164,6 +164,6 @@ setInterval(checkReminders, 60 * 60 * 1000);
 
 // Start Server
 app.listen(PORT, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
   checkReminders(); // Run immediately on startup
 });
